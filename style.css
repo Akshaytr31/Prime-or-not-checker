@@ -129,6 +129,10 @@ h1{
 .container-elm input:focus{
     outline: none;
 }
+.container-elm input::placeholder{
+    color:#a5aca5ef;
+    font-size: 22px;
+}
 
 
 
@@ -187,10 +191,6 @@ h1{
         flex-direction: column;
     }
 }
-
-
-
-
 
 
 
