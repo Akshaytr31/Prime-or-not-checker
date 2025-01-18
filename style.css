@@ -167,10 +167,18 @@ h1{
 
 
 .result.red{
-    animation: blinkred 0.5s alternate infinite;
+    animation: blinkred 1s alternate infinite;
 }
 @keyframes blinkred{
     0% {
+        background-color: #f1200e;
+        color: rgb(242, 235, 235);
+    }
+    25%{
+        background-color: #f7f6f5;
+        color: rgb(8, 8, 8);
+    }
+    75%{
         background-color: #f1200e;
         color: rgb(242, 235, 235);
     }
@@ -191,9 +199,6 @@ h1{
         flex-direction: column;
     }
 }
-
-
-
 
 
 
