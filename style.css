@@ -24,6 +24,7 @@ h1{
     top: 150px;
     text-align: center;
     font-size: 30px;
+    margin-inline:30px;
 }
 .outerDiv{
     height: 60%;
@@ -36,7 +37,7 @@ h1{
     justify-content: center;
     align-items: center;
     background-color:rgba(255,255,255,0.7);
-   
+    margin-inline: 30px;
     height: 200px;
     border-radius: 10px;
 
@@ -48,6 +49,7 @@ h1{
     justify-content: space-between;
     width: 100%;
     padding: 20px;
+    gap: 20px;
 }
 .container-elm button{
     color: rgb(237, 213, 163);
@@ -114,11 +116,13 @@ h1{
 }
 
 .container-elm input{
-    background-color: transparent;
+    background-color: rgb(42, 38, 37);
     border: none;
     padding: 10px;
     font-size: 30px;
     width: 72%;
+    color: #fff;
+    border-radius: 5px;
 }
 .container-elm input:focus{
     outline: none;
