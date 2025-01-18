@@ -21,10 +21,12 @@ body {
   margin: 0;
 }
 h1{
+    width: 60%;
     top: 150px;
     text-align: center;
     font-size: 30px;
     margin-inline:30px;
+    max-width: 720px;
 }
 .outerDiv{
     height: 60%;
@@ -52,7 +54,7 @@ h1{
     gap: 20px;
 }
 .container-elm button{
-    color: rgb(237, 213, 163);
+    color: rgb(203, 199, 189);
     border: 1px solid ;
     padding: 10px 20px;
     background-color: rgb(42, 38, 37);
